@@ -1,0 +1,2 @@
+#Google - Layout Projesi
+Hakan Yalçınkaya hocamın anlatımıyla 'Sıfırdan Projelerle Front-end ve React 18.x Öğren' eğitimi kapsamında **HTML** ve **CSS** kullanarak google ana sayfasının temel düzenini oluşturdum.

@@ -1,0 +1,219 @@
+/* BODY */
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+ 
+  background-color: var(--google-bgc);
+}
+/* ROOT */
+:root{
+  --green:#2ecc71;
+  --blue:#3498db;
+  --yellow:#f1c40f;
+  --red:#e74c3c;
+  --white:#ffffff;
+  --dark-blue:#34495e;
+  --light-white:#ecf0f1;
+  --midnight-blue:#2c3e50;
+  --silver:#bdc3c7;
+  --google-bgc:#202124;
+  --text-color:var(--midnight-blue);
+  --button-bgc:#4885ed;
+  --search-bar-border:#5f6368;
+  --search-border-hover:#303134;
+  --input-submit:#e8eaed;
+  --input-submit-hover:#c8c8c8;
+  --footer-bgc:#171717;
+  --footer-a-color:#999da2;
+  --tr-color:#9aa0a6;
+  --tr-border-color:#3c4043;
+  --search-input-bgc:#00000000;
+ 
+}
+
+/* DİV- CONTAİNER */
+.container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* HEADER */
+header>nav>ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+header>nav>ul>li{
+  margin-right: 15px;
+  margin-top: 10px;
+  }
+header>nav>ul>li>a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+header>nav>ul>li>a:hover{
+  text-decoration: underline;
+}
+header>nav>ul>li>a>button{
+    background-color: var(--button-bgc);
+    color: var(--white);
+    border: none;
+    border-radius: 3px;
+    padding: 6px 9px;
+    position: relative;
+    bottom: 6px;
+    font-weight: bold;
+ 
+  }
+  header>nav>ul>li>a>button:hover{
+    text-decoration: none;
+  }
+  .grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+    margin-left: 10px;
+    }
+  .grid:hover{
+    box-shadow: 0px 2px 16px 2px rgba(97,84,84,0.48);
+    -webkit-box-shadow: 0px 2px 16px 2px rgba(97,84,84,0.48);
+    -moz-box-shadow: 0px 2px 16px 2px rgba(97,84,84,0.48);
+  }
+   /* SECTİON */
+  section{
+    display:block;
+    height: 50%;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 45px;
+    }
+   section>img{
+      height: 92px;
+      width: 272px;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      top: 55px;
+    }
+
+  .search-bar{
+    display: flex;
+    padding: 11px; 
+    margin: 0 auto;
+    position: relative;
+    top: 96px;
+    border: 1px solid var(--search-bar-border);
+    border-radius: 24px;
+    width: 545px;
+    outline: none;
+   }
+   .search-bar:hover{
+    background-color: var(--search-border-hover);
+    
+    }  
+   .search-bar > input{
+    display: block;
+    margin: 0 auto;
+    width:95%;
+    outline: none;
+    background-color: var(--search-input-bgc);
+    color: var(--white);
+    font-size: 16px;
+    border: none;
+  }
+
+   .voice{
+    width: 15px;
+    position: relative;
+    bottom: 1px;
+    right: 8px;
+    vertical-align: middle;
+    float: right; 
+  } 
+  .buttons{
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    top: 123px;
+   }
+
+   /* İNPUT */
+  input[type="submit"]{
+    margin-right: 10px;
+    background-color: var(--search-border-hover);
+    border: 1px solid var(--search-border-hover);
+    border-radius: 4px;
+    color: var(--input-submit);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    line-height: 27px;
+    position: relative;
+    left: 7px;
+    top: 4px;
+  }
+   
+  input[type="submit"]:hover{
+      border: 1px solid  var(--input-submit-hover);
+      
+   }
+   input[type="submit"]:active{
+      border:1px solid var(--button-bgc);
+   }
+
+  /* FOOTER */
+  footer{
+   background-color: var(--footer-bgc);
+  }
+  footer>nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer>nav>ul{
+    display: flex;
+    list-style-type: none;
+    }
+  footer>nav>ul>li{
+    margin-right: 10px;
+    position: relative;
+    right: 18px;
+  }
+
+  footer>nav>ul>li>a{
+    text-decoration: none;
+    color: var(--footer-a-color);
+     padding: 14px; 
+ 
+  }
+  footer>nav>ul>li>a:hover{
+    text-decoration: underline;
+  }
+  .tr{
+    padding: 15px 30px;
+    border-bottom: 1px solid var(--tr-border-color);
+    font-size: 15px;
+    color: var(--tr-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+
+
+
+
+  
+
+
+
+
+
+
