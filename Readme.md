@@ -4,5 +4,5 @@ Merhaba Arkadaşlar, Hakan Yalçınkaya hocamınızın anlatımıyla Sıfırdan 
 
 Aşağıdaki bağlantıdan ulaşabilir ve inceleyebilirsiniz
 
-[Google-Layout](https://emir-sungu-google-layout-css.netlify.app/)
+[Google-Layout](https://emir-sungu-google-layout-demo.netlify.app/)
 
