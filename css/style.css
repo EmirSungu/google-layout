@@ -34,6 +34,7 @@ body{
  
 }
 
+
 /* DİV- CONTAİNER */
 .container{
   display: flex;
@@ -100,7 +101,7 @@ header>nav>ul>li>a>button{
       display: block;
       margin: 0 auto;
       position: relative;
-      top: 55px;
+      top: 65px;
     }
 
   .search-bar{
